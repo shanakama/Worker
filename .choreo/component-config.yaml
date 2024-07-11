@@ -1,7 +1,7 @@
 apiVersion: core.choreo.dev/v1beta1
 kind: ComponentConfig
 spec:
-  # +optional Incoming connection details for the component (AKA endpoints).
+  # +optional Incoming connection details for the component (AKA endpoints). sd
   inbound:
     # +required Unique name for the endpoint. (This name will be used when generating the managed API)
     - name: Worker Service
